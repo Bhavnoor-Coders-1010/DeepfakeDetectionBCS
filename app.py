@@ -115,9 +115,9 @@ def predict_image(image_path):
         return "REAL", 1-newModel(img)[0][0].item()
 
 
-st.set_page_config(page_title="Food Classifier", page_icon="🍔", layout="centered")
+st.set_page_config(page_title="DeepFake Detector", page_icon="💪", layout="centered")
 
-st.title('🍴 DeepFake Detector 🍴')
+st.title('🧐 DeepFake Detector 🕵️‍♀️')
 st.write("Upload an image...")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png", "webp"])
@@ -135,7 +135,7 @@ if uploaded_file is not None:
     predicted_label, prediction_confidence = predict_image("uploaded_image.jpg")
     st.subheader("Prediction")
     st.write(
-        f"I am **{prediction_confidence * 100:.1f}%** sure that this is {predicted_label} Image!")
+        f"Confidence Score: **{prediction_confidence * 100:.1f}%**\nPredicted Label: {predicted_label}")
 
 # Additional CSS for black background
 st.markdown("""
