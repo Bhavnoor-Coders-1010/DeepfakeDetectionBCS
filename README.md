@@ -1,4 +1,4 @@
-This github repo contains the final weights of the Deepfake Detection model, the code used for training and a report on the project.
+This github repo contains the final weights of the Deepfake Detection model(DeepfakeBCSLatest.pth), the code used for training(deepfake-bcs finalized.ipynb) and a report on the project(deepfake-detection-report.pdf).
 
 
 
