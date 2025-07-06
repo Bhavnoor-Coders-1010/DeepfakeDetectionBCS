@@ -1,8 +1,10 @@
-This github repo contains the final weights of the Deepfake Detection model and a testDeepfake.ipynb file.
+This github repo contains the final weights of the Deepfake Detection model, the code used for training and a report on the project.
 
 
 
-For testing the model on your custom image, you just need to download the "deepfaketest.ipynb" file and the weights and change the second last and the last cell with the path to weights and path to test image respectively. Alternatively you can also refer to the Streamlit Application: https://deepfakedetectionbcsproject.streamlit.app/
+You can also refer to the Streamlit Application for testing the model: https://deepfakedetectionbcsproject.streamlit.app/
+
+Alternatively, you may open the "deepfaketest.ipynb" to view sample test results.
 
 Please refer to "deepfake-bcs finalized.py" for the training process.
 
